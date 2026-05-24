@@ -178,7 +178,7 @@ void main() {
                     margin: EdgeInsets.all(10),
                     height: 70.0,
                     decoration: BoxDecoration(
-                      color: const Color.fromARGB(255, 183, 26, 73),
+                      color: const Color.fromARGB(255, 174, 9, 9),
                       borderRadius: BorderRadius.circular(10),
                     ),
                     child: Center(
@@ -201,14 +201,15 @@ void main() {
                     height: 100,
                     margin: EdgeInsets.all(10),
                     decoration: BoxDecoration(
-                      color: Colors.blue,
+                      color: const Color.fromARGB(255, 173, 13, 13),
                       borderRadius: BorderRadius.circular(10),
                     ),
                     child: Center(
                       child: Text(
                         "Football",
                         style: TextStyle(
-                          color: Colors.white,
+                          fontWeight: FontWeight.bold,
+                          color: const Color.fromARGB(255, 0, 0, 0),
                           fontSize: 15.0),
                       ),
                     ),
@@ -218,14 +219,15 @@ void main() {
                     height: 100,
                     margin: EdgeInsets.all(10),
                     decoration: BoxDecoration(
-                      color: Colors.blue,
+                      color: const Color.fromARGB(255, 173, 13, 13),
                       borderRadius: BorderRadius.circular(10),
                     ),
                     child: Center(
                       child: Text(
                         "Basketball",
                         style: TextStyle(
-                          color: Colors.white,
+                          fontWeight: FontWeight.bold,
+                          color: const Color.fromARGB(255, 0, 0, 0),
                           fontSize: 15.0),
                       ),
                     ),
@@ -239,14 +241,15 @@ void main() {
                     height: 100,
                     margin: EdgeInsets.all(10),
                     decoration: BoxDecoration(
-                      color: Colors.blue,
+                      color: const Color.fromARGB(255, 173, 13, 13),
                       borderRadius: BorderRadius.circular(10),
                     ),
                     child: Center(
                       child: Text(
                         "Table Tennis",
                         style: TextStyle(
-                          color: Colors.white,
+                          fontWeight: FontWeight.bold,
+                          color: const Color.fromARGB(255, 0, 0, 0),
                           fontSize: 15.0),
                       ),
                     ),
@@ -256,15 +259,16 @@ void main() {
                     height: 100,
                     margin: EdgeInsets.all(10),
                     decoration: BoxDecoration(
-                      color: Colors.blue,
+                      color: const Color.fromARGB(255, 173, 13, 13),
                       borderRadius: BorderRadius.circular(10),
                     ),
                     child: Center(
                       child: Text(
                         "Reading",
                         style: TextStyle(
-                          color: Colors.white,
+                          color: const Color.fromARGB(255, 0, 0, 0),
                           fontSize: 15.0,
+                          fontWeight: FontWeight.bold,
                           ),
                       ),
                     ),
@@ -278,7 +282,7 @@ void main() {
           width: 250.0,
           height: 100.0,
           decoration: BoxDecoration(
-            color: Colors.black,
+            color: const Color.fromARGB(255, 48, 47, 47),
           ),
           child: Row(
             children: [
